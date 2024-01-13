@@ -219,7 +219,7 @@ main {
 
 .sponsors-text {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,7 +243,9 @@ main {
 
 .sponsors-image img {
   width: 10%;
-  filter: grayscale();
+  filter: grayscale(100%);
+  opacity: 70%;
+
 }
 
 /* * Footer section */
@@ -325,10 +327,13 @@ footer{
     flex-direction: column;
     gap: 20px;
     margin-top: 50px;
+    align-items: center;
+    
   }
 
   .facts-box {
-    width: 100%;
+    width: 50%;
+    
   }
 
   /* * Sponsors Section  */
@@ -402,6 +407,7 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     gap: 8%;
     padding: 0 10%;
+    margin-top: 50px;
     
   }
 
