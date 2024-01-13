@@ -318,7 +318,7 @@ footer{
   }
 
   .featured-left {
-    width: 100%;
+    width: 90%;
     grid-template-columns: 1fr;
   }
   .featured-right {
@@ -328,10 +328,15 @@ footer{
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    text-align: center;
   }
 
   /** Fact Section   */
 
+
+  .facts-text{
+    text-align: center;
+  }
   .facts-description {
     width: 95%;
   }
@@ -367,6 +372,9 @@ footer{
   .sponsors-image img {
     width: 30%;
   }
+  
+    
+
 
 /* * Footer Section */
 
