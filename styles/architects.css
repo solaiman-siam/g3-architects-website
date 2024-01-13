@@ -28,9 +28,9 @@ body {
 
 .section-description {
   color: #727272;
-  font-size: 16px;
+  font-size: 0.9rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 22px;
 }
 
 /* *** header styles *** */
@@ -162,6 +162,88 @@ main {
   padding-bottom: 20px;
 }
 
+/* * Experience Section  */
+
+.experience {
+  display: flex;
+  gap: 60px;
+  margin-top: 100px;
+}
+
+.experience-text-container {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.experience-text {
+  margin-bottom: 15px;
+}
+
+.experience-title {
+  color: #131313;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-left: 4px solid #ff900e;
+  padding-left: 15px;
+}
+
+.experience-card {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
+
+.card-experience-description {
+  color: #727272;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 16px;
+}
+.experience-card-title {
+  color: #131313;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.experience-image {
+  width: 50%;
+  position: relative;
+}
+
+.experience-image img {
+  width: 100%;
+}
+
+.experience-duration {
+  width: 45%;
+  height: 110px;
+  border-radius: 8px;
+  background: #ff900e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: -35px
+}
+
+.experience-duration-title {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.experience-duration-subtitle {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
 /** Facts Section */
 
 .facts {
@@ -245,12 +327,11 @@ main {
   width: 10%;
   filter: grayscale(100%);
   opacity: 70%;
-
 }
 
 /* * Footer section */
 
-footer{
+footer {
   margin-top: 100px;
 }
 .copyright {
@@ -264,17 +345,6 @@ footer{
   justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* *** Responsive media  */
 
 /** Mobile Devices */
@@ -282,19 +352,17 @@ footer{
 /* * Header Section  */
 
 @media screen and (max-width: 576px) {
-
-  .mobile-device-width{
+  .mobile-device-width {
     width: 100%;
     padding: 0 25px;
   }
-  
-  .banner-image{
+
+  .banner-image {
     padding-bottom: 30px;
   }
-  
+
   .banner-conent {
     padding: 0 0;
-    
   }
 
   nav {
@@ -333,8 +401,7 @@ footer{
 
   /** Fact Section   */
 
-
-  .facts-text{
+  .facts-text {
     text-align: center;
   }
   .facts-description {
@@ -346,12 +413,10 @@ footer{
     gap: 20px;
     margin-top: 50px;
     align-items: center;
-    
   }
 
   .facts-box {
     width: 50%;
-    
   }
 
   /* * Sponsors Section  */
@@ -372,26 +437,16 @@ footer{
   .sponsors-image img {
     width: 30%;
   }
-  
-    
 
+  /* * Footer Section */
 
-/* * Footer Section */
+  footer {
+    margin-top: 50px;
+  }
 
-footer{
-  margin-top: 50px;
-}
-
- .copyright{
-  padding: 0 15%
- }
-  
-
-
-
- 
-
-
+  .copyright {
+    padding: 0 15%;
+  }
 }
 
 /** Medium Devices */
@@ -429,19 +484,9 @@ footer{
     gap: 8%;
     padding: 0 10%;
     margin-top: 50px;
-    
   }
 
-  .facts-box{
-    width: 100%
+  .facts-box {
+    width: 100%;
   }
-
-
-
-
-
-
-
-
-
 }
