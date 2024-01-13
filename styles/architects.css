@@ -305,7 +305,7 @@ footer{
   nav ul {
     gap: 15px;
   }
-  
+
   .banner-conent {
     margin-top: 30px;
   }
@@ -356,7 +356,7 @@ footer{
   }
 
   .sponsors-description {
-    width: 95%;
+    width: 100%;
   }
 
   .sponsors-image {
