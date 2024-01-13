@@ -184,6 +184,8 @@ main {
 
 /** Mobile Devices */
 
+/* * Header Section  */
+
 @media screen and (max-width: 576px) {
   .banner-conent {
     padding: 0 20px;
@@ -199,7 +201,47 @@ main {
   .banner-conent {
     margin-top: 30px;
   }
+
+/** Featured Section */
+
+  .featured{
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+
+  .featured-left{
+    width: 100%;
+    grid-template-columns: 1fr;
+    
+  }
+  .featured-right{
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
 
 /** Medium Devices */
 
@@ -215,4 +257,26 @@ main {
   .banner-conent {
     margin-top: 30px;
   }
+
+  .featured{
+    padding: 0;
+    flex-direction: column-reverse;
+    
+  }
+
+  .featured-left{
+    width: 100%;
+  }
+  .featured-right{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+
+
 }
