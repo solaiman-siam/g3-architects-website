@@ -213,11 +213,11 @@ main {
 
 /* * Sponsors section  */
 
-.sponsors{
+.sponsors {
   margin-top: 100px;
 }
 
-.sponsors-text{
+.sponsors-text {
   text-align: center;
   margin-bottom: 40px;
   display: flex;
@@ -225,28 +225,45 @@ main {
   align-items: center;
 }
 
-.sponsors-title{
-  color:#131313;
-font-size: 2.1rem;
-font-weight: 700;
-padding-bottom: 20px;
+.sponsors-title {
+  color: #131313;
+  font-size: 2.1rem;
+  font-weight: 700;
+  padding-bottom: 20px;
 }
-.sponsors-description{
+.sponsors-description {
   width: 70%;
 }
 
-.sponsors-image{
+.sponsors-image {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-.sponsors-image img{
+.sponsors-image img {
   width: 10%;
-  filter:grayscale()
+  filter: grayscale();
 }
 
 /* * Footer section */
+
+footer{
+  margin-top: 100px;
+}
+.copyright {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+  background: #fff4e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 
 
 
@@ -300,45 +317,53 @@ padding-bottom: 20px;
 
   /** Fact Section   */
 
-  .facts-description{
+  .facts-description {
     width: 95%;
   }
 
-  .facts-box-container{
+  .facts-box-container {
     flex-direction: column;
     gap: 20px;
     margin-top: 50px;
   }
 
-  .facts-box{
+  .facts-box {
     width: 100%;
   }
 
-/* * Sponsors Section  */
+  /* * Sponsors Section  */
 
-.sponsors{
-  margin-top: 90px;
+  .sponsors {
+    margin-top: 90px;
+  }
+
+  .sponsors-description {
+    width: 95%;
+  }
+
+  .sponsors-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsors-image img {
+    width: 40%;
+  }
+
+/* * Footer Section */
+
+footer{
+  margin-top: 50px;
 }
 
-.sponsors-description{
-  width: 95%;
-}
-
-.sponsors-image{
-  flex-direction: column;
-  align-items: center;
-}
-
-.sponsors-image img{
-  width: 40%;
+ .copyright{
+  padding: 0 15%
+ }
   
-}
 
 
 
-
-
-
+ 
 
 
 }
@@ -371,4 +396,25 @@ padding-bottom: 20px;
     padding: 0;
     margin-bottom: 30px;
   }
+
+  .facts-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8%;
+    padding: 0 10%;
+    
+  }
+
+  .facts-box{
+    width: 100%
+  }
+
+
+
+
+
+
+
+
+
 }
