@@ -287,19 +287,25 @@ footer{
     width: 100%;
     padding: 0 25px;
   }
-
+  
+  .banner-image{
+    padding-bottom: 30px;
+  }
+  
   .banner-conent {
-    padding: 0 20px;
+    padding: 0 0;
+    
   }
 
   nav {
     flex-direction: column;
     gap: 30px;
-    padding-top: 40px;
   }
+
   nav ul {
     gap: 15px;
   }
+  
   .banner-conent {
     margin-top: 30px;
   }
