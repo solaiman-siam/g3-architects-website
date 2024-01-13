@@ -282,6 +282,12 @@ footer{
 /* * Header Section  */
 
 @media screen and (max-width: 576px) {
+
+  .mobile-device-width{
+    width: 100%;
+    padding: 0 25px;
+  }
+
   .banner-conent {
     padding: 0 20px;
   }
@@ -289,6 +295,7 @@ footer{
   nav {
     flex-direction: column;
     gap: 30px;
+    padding-top: 40px;
   }
   nav ul {
     gap: 15px;
